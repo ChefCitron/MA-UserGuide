@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <origamis>
- <origami label="baleine" value="whale.html" /> 
-  <origami label="pinguin" value="whale.html" /> 
+ <origami label="whale" value="whale.html" /> 
+  <origami label="penguin" value="whale.html" /> 
 
  </origamis>
