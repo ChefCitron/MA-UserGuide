@@ -48,9 +48,9 @@
  }
 });
 function validateForm() {
-    txt1 = "<a href=../src/";
+    txt1 = "<h1> <a href=../src/";
 	txt2 = document.getElementById("searchBox").value
-	txt3 =".html> Lien du résultat de la recherche </a>";
+	txt3 =".html> Lien du résultat de la recherche </a> </h1>";
 	txt4 = txt1 + txt2 +txt3;
 	document.getElementById("lol").innerHTML = txt4;
 	return false;
@@ -63,7 +63,7 @@ function validateForm() {
   <form name="search_form" id="searchForm" onsubmit="return validateForm()" >
    <label for="searchBox">Keyword Search</label>
    <input type="text" id="searchBox" name="searchString"  />
-	<p id ="lol"> lol
+	<p id ="lol">
 	</p>
 
       <button submit='validateForm()'>Submit</button>
